@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Loged in user: <span th:text="${session.userName}"></span>
+<h2>Wellcome all to Home Page. Authenticaticated No Roles needed!!</h2>
+<a th:href="@{/logout}">Logout</a>
+</body>
+</html>
+
